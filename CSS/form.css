@@ -1,0 +1,66 @@
+form {
+    display: inline-block;
+    width: 100%;
+}
+
+form > .form-row {
+    display: inline-block;
+    width: 100%;
+    margin-top: 30px;
+}
+
+form > .form-row:first-of-type {
+    margin-top:0;
+}
+
+form > .form-row > label {
+    display: inline-block;
+    width: 100%;
+    font-size: 17px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    color: #B3B3B3;
+}
+form > .form-row > input {
+    display: inline-block;
+    width: 100%;
+    font-size: 20px;
+    line-height: 30px;
+    border: none;
+    border-bottom: 2px solid #F6F6F6;
+}
+form > .form-row > button {
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 18px;
+    line-height: 26px;
+    background: rgb(21,76,215);
+    background: linear-gradient(107deg, rgba(21,76,215,1) 35%, rgba(0,99,218,1) 100%);
+    color: #DCFFFF;
+    border: none;
+
+}
+form > .form-row > button:hover {
+    cursor:pointer;
+}
+form > .form-row > span {
+    display: inline-block;
+    line-height: 26px;
+    padding: 5px;
+
+}
+form > .form-row > a {
+    display: inline-block;
+    line-height: 26px;
+    padding: 5px;
+    padding-left: 5px;
+    color: rgb(21,76,215);
+    font-weight: bold;
+    text-decoration: none;
+}
+form > .form-row > a:hover {
+    text-decoration: underline;
+}

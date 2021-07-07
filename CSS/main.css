@@ -16,17 +16,21 @@ body {
     color:#FFFFFF;
     padding: 40px;
     padding-bottom: 20px;
-
 }
-a {
+.bottom-texts {
+    color:#FFFFFF;
+}
+
+.bottom-texts > a {
     color: #FFFFFF;
 }
+   
 .right-column { 
     background-color:#FFFFFF;
     width:60%;
     float:left;
-    padding: 60px;
-    
+    padding: 60px;  
     
 }
+
 
