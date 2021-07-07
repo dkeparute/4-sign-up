@@ -7,12 +7,13 @@
     <title>Sign-up</title>
     <link rel="stylesheet" href="./CSS/reset.css">
     <link rel="stylesheet" href="./CSS/main.css">
+    <link rel="stylesheet" href="./CSS/form.css">
 </head>
 <body>
     <main class="content">
         <div class="left-column">
         <h1>Sign up</h1>
-            <div>
+            <div class="bottom-texts">
                 <a href="#">Privacy policy</a>
                 &amp;
                 <a href="#">terms of service</a>
@@ -23,19 +24,24 @@
          <form>
              <div class="form-row">
                  <label for="">Username</label>
-                 <input type="text">
+                 <input type="text" placeholder="Your name" required>
             </div>
              <div class="form-row">
                  <label for="">E-mail</label>
-                 <input type="email">
+                 <input type="email" placeholder="Your email" required>
             </div>
              <div class="form-row">
                  <label for="">Password</label>
-                 <input type="password">
+                 <input type="password" placeholder="Your password" required>
             </div>
              <div class="form-row">
                  <label for="">Repeat password</label>
-                 <input type="password">
+                 <input type="password" placeholder="Repeat your password" required>
+            </div>
+            <div class="form-row">
+                <button type="submit">Get started</button>
+                <span>or</span>
+                <a href="#">Sign in</a>
             </div>
             
          </form>
