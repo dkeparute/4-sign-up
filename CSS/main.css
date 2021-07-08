@@ -11,11 +11,17 @@ body {
 }
 .left-column { 
     background-color:#567BD7;
-    width: 40%;
     float:left;
     color:#FFFFFF;
     padding: 40px;
     padding-bottom: 20px;
+    background-image: url(../img/Untitled.jpg);
+    weight: 500px;
+    width: 40%;
+    background-repeat: no-repeat; 
+    /* background 6iuo atveju nereik rašyti su no repeat nes position - cover užtenka. */
+    background-position: center;
+    background-size: cover;
 }
 .bottom-texts {
     color:#FFFFFF;
