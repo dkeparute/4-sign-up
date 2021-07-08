@@ -1,52 +1,68 @@
 body {
-    background-color:#6EA5D9;
-}
-.content {
-    width: 800px;
+    background-color: #44b2c8;
+  }
+  
+  .background {
     display: inline-block;
-    margin-top: 200px;
-    margin-left: calc((100% - 800px) / 2);
-    
-
-}
-.left-column { 
-    background-color:#567BD7;
-    float:left;
-    color:#FFFFFF;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/nuotrauka.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: blur(25px);
+  }
+  
+  .container {
+    display: inline-block;
+    width: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .left-column {
+    width: 40%;
     padding: 40px;
     padding-bottom: 20px;
-    background-image: url(../img/Untitled.jpg);
-    weight: 500px;
-    width: 40%;
-    background-repeat: no-repeat; 
-    /* background 6iuo atveju nereik rašyti su no repeat nes position - cover užtenka. */
-    background-position: center;
+    background-color: #3f52b2;
+    background-image: url(../img/nuotrauka.jpg);
     background-size: cover;
-}
-.bottom-texts {
-    color:#FFFFFF;
-}
-
-.bottom-texts > a {
-    color: #FFFFFF;
-}
+    background-position: center;
+    color: #fff;
+    position: absolute;
+    top: 30px;
+    bottom: 30px;
+  }
   
-.right-column { 
-    background-color:#FFFFFF;
-    width:60%;
-    float:left;
-    padding: 60px; 
-    position:relative; 
-    
-}
-.close {
-height: 60px;
-width: 60px;
-position: absolute;
-top: 0;
-right: 0;
-text-align: center;
-line-height: 60px;
-}
-
-
+  h1 {
+  }
+  
+  .bottom-texts {
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    right: 40px;
+  }
+  
+  .bottom-texts > a {
+    color: #fff;
+  }
+  
+  .right-column {
+    width: 60%;
+    float: right;
+    padding: 60px;
+    background-color: #fff;
+    position: relative;
+  }
+  
+  .close {
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    line-height: 60px;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
