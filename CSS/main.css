@@ -30,13 +30,23 @@ body {
 .bottom-texts > a {
     color: #FFFFFF;
 }
-   
+  
 .right-column { 
     background-color:#FFFFFF;
     width:60%;
     float:left;
-    padding: 60px;  
+    padding: 60px; 
+    position:relative; 
     
+}
+.close {
+height: 60px;
+width: 60px;
+position: absolute;
+top: 0;
+right: 0;
+text-align: center;
+line-height: 60px;
 }
 
 
