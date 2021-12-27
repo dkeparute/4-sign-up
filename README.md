@@ -9,7 +9,7 @@
 This is one of the projects that we are making during the Javascript trainings. 
  This project performed for educational porpuses only.
 
-Site published at https://dkeparute.github.io/4-sign-up/
+Site published at https://dkeparute.github.io/Sign-up/
 
 Design: [Sign-up](https://cdn.discordapp.com/attachments/648536139677958156/648860801997996052/day1dr.png)
 ![Sign-up](https://cdn.discordapp.com/attachments/648536139677958156/648860801997996052/day1dr.png)
